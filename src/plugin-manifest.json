@@ -1,7 +1,7 @@
 {
   "id": "flotiq.react-template",
   "name": "React Template Plugin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A react-based example of Flotiq plugin. This will render a shiny title instead of regular title fields",
   "repository": "https://github.com/flotiq/flotiq-ui-plugins-templates-react",
   "url": "https://localhost:3050/static/js/bundle.js"
