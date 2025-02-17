@@ -21,7 +21,7 @@ jobs:
       run: | 
         BUILDFOLDER="build"
         MANIFEST=$(find ./$BUILDFOLDER -name plugin-manifest.json)
-        [ -z $MANIFEST ] && cp plugin-manifest $BUILDFOLDER
+        [ -z $MANIFEST ] && cp src/plugin-manifest.json $BUILDFOLDER
         MANIFEST="$BUILDFOLDER/plugin-manifest.json"
         VERSION=$(jq '.version' $MANIFEST -r)
         URL=$(jq '.url' $MANIFEST -r)
