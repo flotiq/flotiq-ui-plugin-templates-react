@@ -32,7 +32,7 @@ jobs:
         echo "version=$VERSION" >> $GITHUB_ENV
         REPO_NAME="$(basename $GITHUB_REPOSITORY)"
         echo "REPO_NAME=$REPO_NAME" >> $GITHUB_ENV
-        ENTRYPOINT_NAME=$(basename $URL)
+        ENTRYPOINT_NAME="*.js"
         ENTRYPOINT_PATH=$(find ./$BUILDFOLDER -name $ENTRYPOINT_NAME | sed "s|^./$BUILDFOLDER/||")
         UPLOAD_URL="$MINIO_URL/flotiq-plugins-dev/$REPO_NAME/$GITHUB_HEAD_REF/$ENTRYPOINT_PATH"
         echo $UPLOAD_URL
