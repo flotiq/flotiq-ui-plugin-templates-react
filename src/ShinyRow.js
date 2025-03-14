@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from 'react';
 
 function ShinyRow({ data }) {
   const [toggle, setToggle] = useState(false);
@@ -8,12 +8,12 @@ function ShinyRow({ data }) {
 
   const style = useMemo(
     () => ({
-      color: "rgb(0, 131, 252)",
-      cursor: "pointer",
-      fontStyle: toggle ? "italic" : "normal",
-      fontWeight: toggle ? "bold" : "normal",
+      color: 'rgb(0, 131, 252)',
+      cursor: 'pointer',
+      fontStyle: toggle ? 'italic' : 'normal',
+      fontWeight: toggle ? 'bold' : 'normal',
     }),
-    [toggle]
+    [toggle],
   );
 
   return (

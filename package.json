@@ -1,6 +1,7 @@
 {
   "name": "flotiq-plugin-unejected",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -38,6 +39,10 @@
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
-    "cpx": "^1.5.0"
+    "cpx": "^1.5.0",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-react": "^7.37.4",
+    "prettier": "^3.5.3"
   }
 }

@@ -1,0 +1,6 @@
+# Ignore artifacts:
+.dev
+.github
+.vscode
+package.json
+yarn.lock
