@@ -1,16 +1,14 @@
 {
-  "name": "flotiq-plugin-unejected",
+  "name": "flotiq.react-plugin-template",
   "version": "0.2.0",
   "license": "MIT",
+  "author": "Flotiq team <helo@flotiq.com> (https://flotiq.com/)",
+  "description": "A react-based example of Flotiq plugin. This will render a shiny title instead of regular title fields",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "concurrently \"yarn start:manifest-watch\" \"yarn react-scripts start\"",
@@ -38,7 +36,7 @@
     ]
   },
   "devDependencies": {
-    "concurrently": "^8.2.2",
+    "concurrently": "^9.1.2",
     "cpx": "^1.5.0",
     "eslint": "^9.22.0",
     "eslint-config-prettier": "^10.1.1",

@@ -4,6 +4,8 @@
 
 # Example Flotiq Plugin in React
 
+A react-based example of Flotiq plugin. This will render a shiny title instead of regular title fields
+
 ## Quickstart:
 
 1. `yarn`
