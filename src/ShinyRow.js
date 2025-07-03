@@ -2,7 +2,9 @@ import { useCallback, useMemo, useState } from 'react';
 
 function ShinyRow({ data }) {
   const [toggle, setToggle] = useState(false);
-  const click = useCallback(() => {
+  const click = useCallback((e) => {
+    e.stopPropagation();
+    e.preventDefault();
     setToggle((t) => !t);
   }, []);
 
