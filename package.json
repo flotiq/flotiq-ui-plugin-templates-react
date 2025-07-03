@@ -6,7 +6,7 @@
   "description": "A react-based example of Flotiq plugin. This will render a shiny title instead of regular title fields",
   "private": true,
   "dependencies": {
-    "react": "^19.0.0",
+    "react": "^19.1.0",
     "react-dom": "^19.0.0",
     "react-scripts": "^5.0.1"
   },
